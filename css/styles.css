@@ -70,6 +70,11 @@ body {
 .logo-studio {
   color: #2e2f42;
 }
+.mobile-open-btn{
+  border: none;
+  background-color: transparent;
+  
+}
 
 /* === /HEADER MOBILE STYLES== */
 @media screen and (min-width: 480px) {
