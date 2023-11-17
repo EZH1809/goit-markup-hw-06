@@ -1000,15 +1000,31 @@ body {
 }
 /* ============================DESKTOP STYLES================== */
 @media screen and (min-width: 1158px) {
-  .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-
   .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .logo {
+    margin-right: 76px;
+  }
+  .menu-adress-item {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .menu-adress-description {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero {
     background: #2e2f42;
@@ -1038,8 +1054,102 @@ body {
         url(../images/people-office@2x.jpg);
     }
   }
+
+  .main-title {
+    padding-bottom: 48px;
+  }
+
+  .feauture-container-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+  }
+  .feature-item {
+    display: flex;
+    gap: 24px;
+  }
+  .feature-item-list {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .feature-header {
+    font-size: 20px;
+
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .feature-text {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
   .light-bg {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .portfolio-item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 48px;
+    border-bottom: 1px;
+  }
+  .portfolio-item-list {
+    background: #fff;
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+  }
+  .portfolio-item-list:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+  .portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+  .portfolio-card {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .portfolio-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .portfolio-item-list:hover .overlay-text {
+    transform: translateY(0%);
   }
 }
