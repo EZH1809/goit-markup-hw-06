@@ -965,6 +965,38 @@ body {
   .portfolio-item-list {
     flex-basis: calc((100% - 24px) / 2);
   }
+  .page-footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .footer-block {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    align-items: baseline;
+    padding-left: 108px;
+  }
+  .footer-block-logo {
+    align-items: normal;
+  }
+  .social-contact {
+    text-align: left;
+  }
+  .subscribe-box-description {
+    text-align: left;
+  }
+  .subscribe-form {
+    flex-direction: row;
+  }
+  .modal {
+    width: 408px;
+    padding-top: 72px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    min-height: 584px;
+  }
 }
 /* ============================DESKTOP STYLES================== */
 @media screen and (min-width: 1158px) {
