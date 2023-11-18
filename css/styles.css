@@ -922,10 +922,7 @@ body {
     margin-bottom: 0;
   }
   /*=====SECTION 1 Feauture===*/
-  .feature-section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
+
   .feauture-container-icon {
     display: none;
   }
@@ -1058,7 +1055,10 @@ body {
   .main-title {
     padding-bottom: 48px;
   }
-
+  .feature-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .feauture-container-icon {
     display: flex;
     justify-content: center;
