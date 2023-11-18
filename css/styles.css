@@ -155,13 +155,12 @@ body {
   padding-bottom: 96px;
 }
 .feature-item {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
+  
 }
-
+.feature-item-list:not(:last-child){
+  margin-bottom: 72px;
+}
 .feature-header {
-  width: 264px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -927,6 +926,7 @@ body {
     display: none;
   }
   .feature-item {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
