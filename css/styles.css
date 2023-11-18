@@ -1092,6 +1092,10 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .social-icon-item:hover,
+  .social-icon-item:focus {
+    background-color: #404bbf;
+  }
   /*==========OUR PORTFOLIO========*/
   .section {
     padding-top: 120px;
