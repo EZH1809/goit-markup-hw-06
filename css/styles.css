@@ -170,6 +170,9 @@ body {
   .feature-item-list:not(:last-child) {
     margin-bottom: 72px;
   }
+  .portfolio-img {
+    height: auto;
+  }
 }
 .feature-header {
   font-size: 36px;
